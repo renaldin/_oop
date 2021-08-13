@@ -1,0 +1,24 @@
+Interface
+- Sebuah objek abstrak yang tidak berisi data atau proses tapi mendefinisikan kebiasaan atau fungsi sebagai method signatures
+- Membantu programmer lain untuk membedah program yang kamu buat 
+- Interface dibuat bukan untuk kita pribadi 
+
+Keterbatasan interface 
+- Tidak ada implementasi di dalamnya
+- Hanya menggunakan visibilitas public 
+
+interface sederhana
+<?php 
+interface LogInterface {
+    public function log(string $message);
+}
+
+Menggunakan interface sebagai Type Hint 
+<?php 
+class Query{
+    public function logQuery(LogInterface $logger, string $message) 
+    {
+        $logger->log($message);
+        return true;
+    }
+}

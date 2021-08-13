@@ -1,0 +1,10 @@
+Pengubah visibilitas
+- Public = bisa digunakan dimana saja.
+- Protected = Hanya bisa digunakan dalam class dan subclass
+- Private = hanya bisa digunakan oleh classnya sendiri
+
+Best Practice 
+- Selalu gunakan encapsulation / pengubah visibilitas
+- Pertimbangkan visibilitas saat ngoding
+- Gunakan encapsulation public hanya jika diperlukan
+- Kelompokkan property atau method pada masing - masing visibilitasnya.

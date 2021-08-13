@@ -1,0 +1,23 @@
+Ex: Log Class 
+- /app/util/log.php 
+- /vendor/framework/framework/log.php
+- /vendor/package/package/util/log.php 
+
+Use Namespace
+- /app/util/log.php  => \App\Util\Log 
+- /vendor/framework/framework/log.php => \Fw\Fw\Log 
+- /vendor/package/package/util/log.php => \Pkg\Pkg\Util\Log 
+
+Keuntungan menggunakan Namespace
+- Lebih mudah mengatur package 
+- Menyederhanakan penamaan method dan class 
+- Class aliases
+- Composer
+
+Cara lama memuat file 
+- require '../folder/file.php'
+- include '../folder/folder/file.php'
+
+Cara baru memuat file 
+- use App\Util\Log;
+- $log = new Log();

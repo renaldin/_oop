@@ -1,0 +1,11 @@
+Instance
+- Suatu perumpamaan / kejadian
+- Suatu objek yang dibuat dari sebuah class yang didefinisikan (OOP)
+
+-   class Mahasiswa {
+
+    }
+
+    $mahasiswa1 = new Mahasiswa;
+
+    $mahasiswa2 = new Mahasiswa;

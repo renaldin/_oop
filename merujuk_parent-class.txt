@@ -1,0 +1,9 @@
+Merujuk parent class
+- ClassName::$property / ClassName::method()
+- self::$property / self::method()
+- parent::$property / parent::method()
+
+- Hanya bekerja didalam class bukan instance
+- self:: dan parent:: menggantikan ClassName 
+- Tidak dibutuhkan dalam static property 
+- Berguna pada saat memanggil static method yang telah di ocerride

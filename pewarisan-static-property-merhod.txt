@@ -1,0 +1,6 @@
+Pewarisan static property dan method
+- Static property dan method bisa diwariskan
+- Pengubah visibilitas / encapsulation berlaku
+- Ststic property yang diwariskan bersidat shared variables
+- Perubahan nilai pada parent class mempengaruhi subclass
+- Perubahan nilai pada subclass mempengaruhi parent class

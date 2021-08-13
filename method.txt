@@ -1,0 +1,23 @@
+Method dalam class
+- Fungsi yang bekerja dalam object
+- Non=OOP: 'functions'; OOP: 'methods';
+- Didefinisikan seperti fungsi biasa di dalam class
+
+class Person {
+    var $firs_name;
+    var $country = 'none';
+
+    function Hello()
+    {
+        return 'Hello world';
+    }
+}
+
+$customer = new Person;
+$customer->first_name = 'Renaldi';
+
+echo $customer->first_name;
+// Renaldi
+
+echo $customer->Hello();
+// Hello world;

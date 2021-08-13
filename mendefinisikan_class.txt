@@ -1,0 +1,13 @@
+Cara menulis class
+-   class mahasiswa {
+        kode properti dan method milik mahasiswa di sini
+    }
+
+-   class dosen {
+        kode properti dan method milik dosen di sini
+    }
+
+Tips Membuat class
+- Diawali huruf kapital / MataKuliah
+- Gunakan bentuk kata tunggal
+- Pendefinisian Class pada masing - masing file

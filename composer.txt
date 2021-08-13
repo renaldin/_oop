@@ -1,0 +1,3 @@
+Composer
+- Bergantung pada PHP namespace
+- Mempercepat proses import dan menggunakan code dari library komunitas

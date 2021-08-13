@@ -1,0 +1,3 @@
+Trait 
+- Menyediakan proses atau detail implementasi
+- Horizontal Code Sharing

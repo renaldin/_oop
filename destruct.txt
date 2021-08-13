@@ -1,0 +1,4 @@
+Destruct Method
+- Bekerja saat referensi terakhir dari instance object dihapus
+- Menggunakan method unset()
+- Script berakhir

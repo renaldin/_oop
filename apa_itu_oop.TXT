@@ -1,0 +1,34 @@
+Apa itu OOP ?
+- Object-oriented Programming
+- Struktur data yang menyimpan nilai dan fungsi.
+- PHP merupakan bahasa scripting dan procedural
+- Fitur OOP sejak versi PHP 5.0.
+
+Kapan kita butuh OOP ?
+- Situs sederhana, OOP akan menambah kerumitan.
+- Situs kompleks, OOP akan menambah kemudahan.
+- Umumnya OOP sangat membantu pada situs berbasis Database.
+
+Jadi, apa itu object ?
+- Object adalah sekumpulan kode dalam satu kebutuhan
+- Abstraksi dalam kode yang mewakili object nyata
+- Properties 
+- Methods
+
+Properties dalam Object
+- Gaun berwarna "putih"
+- Meja memiliki "tinggi 1 meter" dan "lebar 2 meter"
+- Rumah memiliki "3 kamar" dan "1 kamar mandi"
+- Siswa : nama, kelas
+- Buku : judul, pengarah, tahun, jumlah halaman
+
+Methods dalam Object
+- Memungkinkan object bisa melakukan sesuatu/perintah
+- Dapat menggunakan property dan memanggil method lainnya
+- Shopping Cart : total, add_to_cart
+
+Manfaat OOP
+- Mengatur kode lebih mudah dipelihara
+- Lebih jelas dan mengurangi komplesitas
+- Memungkinkan membuat fungsi sederhana untuk interaksi yang kompleks
+- Modular, reusable code

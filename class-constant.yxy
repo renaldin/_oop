@@ -1,0 +1,6 @@
+Class Constant
+- Digunakan untuk nilai class yang tidak bisa diubah
+- Menggunakan keyword const dan penamaan capital
+- Dapat menyimpan nilai expression
+- Support visibility modifier sejak PHP 7.1
+- Perujukan dengan ClassName:: atau self::

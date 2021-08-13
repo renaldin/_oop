@@ -1,0 +1,5 @@
+Magic Methods
+- __construct()
+- __destruct()
+- __clone()
+- __get(), __set()

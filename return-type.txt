@@ -1,0 +1,18 @@
+Return type 
+public function getUser() : UserInterface {
+
+    return $this->userObj;
+}
+
+PHP 7 return type declaration
+- Class/Interface 
+- self / Same Class 
+- callable
+- array
+- bool 
+- float 
+- int 
+- string
+
+Tujuan return type declaration 
+- menyamakan jenis data antara function, type, dan return type 

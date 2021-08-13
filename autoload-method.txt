@@ -1,0 +1,5 @@
+Autoload Underfined Method
+- __autoload()
+- Dipanggil diluar class / non-class function 
+- Digunakan untuk mencari class yang tidak ditemukan
+- Memberi kesempatan membuat class pada suatu directory

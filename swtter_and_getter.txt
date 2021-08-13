@@ -1,0 +1,11 @@
+Menggunakan setter dab getter
+- Menetapkan visibilitas property menjadi private
+- Buat method unutk mengisi nilai private property 
+- Buat method untuk memanggil nilai private property 
+
+Fungsi setter dan getter 
+- Memungkinkan mengakses private property 
+- Berguna untuk mengatur kewenangan akses 
+- Berguna untuk membuat property read-only atau write-only 
+- Berguna untuk membuat nilai pada per-processing
+- Hindari membuat method 'naive setter' dan 'naive getter'

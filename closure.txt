@@ -1,0 +1,16 @@
+Closure 
+$func = function() { echo "Closure defined"; };
+echo $func(); //closure defined 
+
+Closure scope 
+$var = "Closure";
+$func = function() {echo "{$var} defined"; };
+echo $func(); // Notice: underfined variable: var
+
+$var = "Closure";
+$func = function($string) {echo "{$string} defined"; };
+echo $func($var); // closure defined
+
+$var = "Closure";
+$func = function() user ($var) {echo "{$var} defined"; };
+echo $func(); // closure defined 

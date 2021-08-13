@@ -1,0 +1,21 @@
+Pewarisan Class (Inheritence)
+- Class baru yang memanfaatkan property atau method dari class yang sudah ada
+= Merapihkan kode
+- Mencegah pengulangan kode
+- Menyederhanakan pemeliharaan
+- Menghindari ketidakkonsistenan dan bugs
+
+- Kemampuan suatu class akan dibagikan dengan subclassnya
+- Memberikan kemampuan baru di parent class akan mempengaruhi subclass
+- Subclass dapat mengubah ulang (override) kemampuan parent class
+- Subclass dapat memperluas fungsinya ketimbang parent class
+
+Mendefinisikan subclass
+
+class Parent {
+
+}
+
+class Subclass extends Parent {
+    
+}

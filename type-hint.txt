@@ -1,0 +1,34 @@
+Type Declaration
+- Petunjuk bagi programmer dan PHP runtime
+
+Perlu menggunakan type hint ?
+- Setiap software tidak dirancang untuk melahap semua tipe data 
+- Menghindari error atau kesalahan program karena berbeda tipe data 
+
+Type Declaration options 
+- Class/Interface 
+- self / Same Class 
+- callable
+- array
+- bool 
+- float 
+- int 
+- string 
+
+
+PHP 7 strict type declaration 
+- bool 
+- float 
+- int 
+- string 
+
+strict type declaration 
+<?php 
+
+declare(strict_types=1);
+public function sum(int $a, int $b)
+{
+    return $a + $b;
+};
+
+sum(1.5, 2.5);
